@@ -1,7 +1,6 @@
 
 import java.util.*;
 
-
 public class main {
 
     /**
@@ -17,8 +16,14 @@ public class main {
         MiLista.add(true);
         
         System.out.println(MiLista);
+        
         System.out.println("-----Otra forma de recorerrlo ");
-        MiLista.forEach(dato->{});
+        MiLista.forEach(dato->{System.out.println(dato);});
+        
+        System.out.println("-----Otra forma de recorerrlo ");      
+        for(Object ListaDato: MiLista){
+            System.out.println(ListaDato);
+        }
     }
     
 }
