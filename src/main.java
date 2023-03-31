@@ -3,13 +3,11 @@ import java.util.*;
 
 public class main {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
         
-        List MiLista = new ArrayList();
+        
+        /*List MiLista = new ArrayList();
         MiLista.add(10);
         MiLista.add("Hola Mundo");
         MiLista.add(10.50);
@@ -23,7 +21,12 @@ public class main {
         System.out.println("-----Otra forma de recorerrlo ");      
         for(Object ListaDato: MiLista){
             System.out.println(ListaDato);
-        }
+        }*/
+        
+        
+        HashSet ListaNomal = new HashSet();
+        
+        
     }
     
 }
